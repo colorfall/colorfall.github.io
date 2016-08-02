@@ -1,0 +1,89 @@
+
+html {
+  background-color: #005580;
+  height: 100%;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%; 
+}
+
+a {
+  text-decoration: none;
+  color: #00008B;
+}
+a:hover {
+  color: darkred;
+}
+
+#wrap {
+  width: 80%;
+  min-height: 100%;
+  margin: 0px auto;
+  background-color: #F2F2F2;
+}
+
+#header {
+  padding-top: 10px;
+}
+
+#header img {
+  margin-top: -10px;
+  margin-right: 20px;
+}
+
+#content {
+  border-top: 1px solid silver;
+  padding: 30px 10% 1px 10%;
+}
+
+#menu {
+  padding: 0px;
+  margin: 10px 0px;
+}
+
+#menu li {
+  display: inline;
+  margin-right: 10px;
+}
+
+#contents > ul {
+  list-style: none;
+  padding: 0px;
+}
+
+#contents > ul > li {
+  margin-bottom: 25px;
+}
+
+#contents > ul > li > p > a > strong {
+  font-size: 120%;
+}
+
+#contents > ul > li > p:first-child {
+  font-weight: bold;
+  border-bottom: 1px solid silver;
+  font-size: 110%;
+}
+
+#disqus_thread {
+  margin: 0px auto;
+  margin-top: 70px;
+}
+
+#contents > blockquote {
+  padding: 5px 20px;
+  width: 80%;
+  margin: 0px auto;
+  color: #4D3300;
+  background-color: #F9F2EC;
+  border: 1px dashed silver;
+}
+
+#contents > blockquote > p {
+  padding: 0px;
+  margin: 5px 0px;
+}
+
