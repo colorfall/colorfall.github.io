@@ -1,6 +1,4 @@
-#Personal blog
+#&copy;Color Fall Official Website
 
-&copy;Alexandr Poltavsky
-
-* [Blog](http://alexpolt.github.io)
+* [Website](http://colorfall.github.io)
 
