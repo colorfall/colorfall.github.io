@@ -44,7 +44,6 @@
 
 <p><center>
 <img src="images/Color-Fall-Screenshot_2016-08-02-10-56-59.png" alt="" title="" />
-<img src="images/Color-Fall-Screenshot_2016-08-02-10-57-02.png" alt="" title="" />
 </center></p>
 
 <p><em>The site in under construction.</em></p>
@@ -66,14 +65,12 @@
     };
     */
     if( ! document.getElementById("contents") ) // alexpolt: exclude main page with contents
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//alexpolt-github-io.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+			(function() { // DON'T EDIT BELOW THIS LINE
+					var d = document, s = d.createElement('script');
+					s.src = '//color-fall-official-website.disqus.com/embed.js';
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+			})();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
